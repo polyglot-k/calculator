@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17c0c11b-f00f-4c7c-b132-8f39f3a91ee5" name="Changes" comment="">
+    <list default="true" id="17c0c11b-f00f-4c7c-b132-8f39f3a91ee5" name="Changes" comment="test : Calculator 테스트 진행(절차지향-step1)&#10;- 기본 사칙 연산 작업&#10;- 0으로 나눴을 때 에러&#10;- 지원되지 않는 Operator 일 떄&#10;- 지원되지않는 Operand 일 떄">
+      <change afterPath="$PROJECT_DIR$/docs/trouble-shooting-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -112,11 +114,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745914875546</updated>
-      <workItem from="1745914886495" duration="6871000" />
+      <workItem from="1745914886495" duration="7729000" />
     </task>
+    <task id="LOCAL-00001" summary="fix : workspace.xml 변경">
+      <created>1745922447780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745922447780</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test : Calculator 테스트 진행(절차지향-step1)&#10;- 기본 사칙 연산 작업&#10;- 0으로 나눴을 때 에러&#10;- 지원되지 않는 Operator 일 떄&#10;- 지원되지않는 Operand 일 떄">
+      <created>1745922547367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745922547367</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix : workspace.xml 변경" />
+    <MESSAGE value="test : Calculator 테스트 진행(절차지향-step1)&#10;- 기본 사칙 연산 작업&#10;- 0으로 나눴을 때 에러&#10;- 지원되지 않는 Operator 일 떄&#10;- 지원되지않는 Operand 일 떄" />
+    <option name="LAST_COMMIT_MESSAGE" value="test : Calculator 테스트 진행(절차지향-step1)&#10;- 기본 사칙 연산 작업&#10;- 0으로 나눴을 때 에러&#10;- 지원되지 않는 Operator 일 떄&#10;- 지원되지않는 Operand 일 떄" />
   </component>
 </project>
