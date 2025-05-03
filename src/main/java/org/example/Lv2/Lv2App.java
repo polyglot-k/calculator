@@ -18,9 +18,12 @@ public class Lv2App {
                 try {
                     int result = calculator.calculate(operand1, operand2, operator);
                     System.out.println("결과 : " + result);
+
+                    if (!inputHandler.shouldDeleteFirstResult()) continue;
                     System.out.println("이전 연산 결과 : " + calculator.getResultHistories().toString());
                     calculator.removeFirstResult();
                     System.out.println("첫번째 결과 삭제 후 결과 : "+ calculator.getResultHistories().toString());
+
                 }catch (RuntimeException e){
                     System.out.println("에러 : " + e.getMessage());
                 }

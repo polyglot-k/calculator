@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Calculator {
-    private static final String UNSUPPORTED_OPERATOR_MESSAGE = "지원되지 않는 연산자 입니다: ";
+    private static final String UNSUPPORTED_OPERATOR_MESSAGE = "지원되지 않는 연산자 입니다.";
     private static final String NO_RESULT_TO_REMOVE_MESSAGE = "삭제할 결과가 없습니다.";
     private static final String NON_NEGATIVE_OPERAND_MESSAGE = "0 이상의 정수만 허용됩니다.";
 
