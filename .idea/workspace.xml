@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17c0c11b-f00f-4c7c-b132-8f39f3a91ee5" name="Changes" comment="feat : static final 형식의 상수 메시지, 키워드 별도로 분리">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv3/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv3/InputHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv3/calculator/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv3/calculator/ArithmeticCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv3/calculator/OperatorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv3/calculator/OperatorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv3/exception/DividedByZeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv3/calculator/exception/DividedByZeroException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv3/exception/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv3/calculator/exception/ErrorMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv3/exception/InvalidOperandException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv3/calculator/exception/InvalidOperandException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv3/exception/InvalidOperatorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv3/calculator/exception/InvalidOperatorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv3/exception/NoResultToRemoveException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv3/calculator/exception/NoResultToRemoveException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Lv3/Lv3ArithmeticCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Lv3/Lv3ArithmeticCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +211,7 @@
       <workItem from="1745914886495" duration="8675000" />
       <workItem from="1746123882386" duration="4038000" />
       <workItem from="1746260178815" duration="2483000" />
-      <workItem from="1746262685881" duration="16161000" />
+      <workItem from="1746262685881" duration="16262000" />
     </task>
     <task id="LOCAL-00001" summary="fix : workspace.xml 변경">
       <created>1745922447780</created>
