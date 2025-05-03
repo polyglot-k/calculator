@@ -21,7 +21,7 @@ public class Calculator {
         if (operation == null) {
             throw new IllegalStateException("지원되지 않는 연산자 입니다." + operator);
         }
-        int result = operation.calculate(operand1, operand2);
+        int result = operation.apply(operand1, operand2);
         resultHistories.add(result);
         return result;
     }

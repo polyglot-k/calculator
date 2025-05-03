@@ -1,5 +1,5 @@
 package org.example.Lv2.calculator.operation;
 
 public interface Operation {
-    int calculate(int a, int b);
+    int apply(int a, int b);
 }
