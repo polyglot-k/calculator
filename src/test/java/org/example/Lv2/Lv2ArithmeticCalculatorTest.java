@@ -14,13 +14,14 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+@DisplayName("Lv2 ArithmeticCalculator 테스트")
 public class Lv2ArithmeticCalculatorTest {
     private Calculator calculator;
     @BeforeEach
     void setUp(){
         calculator = new ArithmeticCalculator();
     }
-    @DisplayName("덧셈, 뺄셈, 곱셈, 나눗셈 계산 테스트")
+    @DisplayName("정수 덧셈, 뺄셈, 곱셈, 나눗셈 계산 테스트")
     @ParameterizedTest(name = "{0} {2} {1} = {3}")
     @CsvSource({
             "5, 3, '+', 8",
@@ -32,7 +33,7 @@ public class Lv2ArithmeticCalculatorTest {
         int result = calculator.calculate(operand1, operand2, operator);
         assertEquals(expected, result);
     }
-    @DisplayName("결과 리스트에서 첫 번째 결과값 제거 테스트 (Integer)")
+    @DisplayName("결과 리스트에서 첫 번째 Integer 결과값 제거 테스트")
     @ParameterizedTest(name = "입력: {0}, 제거 후: {1}")
     @CsvSource({
             "'3,4,5,6,7,8,9', '4,5,6,7,8,9'",
@@ -51,6 +52,7 @@ public class Lv2ArithmeticCalculatorTest {
     }
 
 
+    @DisplayName("0으로 나누기 시 ArithmeticException 발생 테스트")
     @Test
     void testDivideByZero() {
         Exception exception = assertThrows(ArithmeticException.class, () -> {
@@ -59,6 +61,7 @@ public class Lv2ArithmeticCalculatorTest {
         assertEquals("0으로 나눌 수 없습니다.", exception.getMessage());
     }
 
+    @DisplayName("지원되지 않는 연산자 입력 시 IllegalStateException 발생 테스트")
     @Test
     void testInvalidOperator() {
         Exception exception = assertThrows(IllegalStateException.class, () -> {
@@ -67,6 +70,7 @@ public class Lv2ArithmeticCalculatorTest {
         assertEquals("지원되지 않는 연산자 입니다.%", exception.getMessage());
     }
 
+    @DisplayName("음수 피연산자 입력 시 IllegalArgumentException 발생 테스트")
     @Test
     void testNegativeOperand() {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
@@ -75,11 +79,10 @@ public class Lv2ArithmeticCalculatorTest {
         assertEquals("0 이상의 정수만 허용됩니다.", exception.getMessage());
     }
 
+    @DisplayName("결과 리스트가 null일 때 첫 번째 결과 제거 시 IllegalStateException 발생 테스트")
     @Test
     void testFirstResultRemovalWhenResultHistoriesIsNull(){
-        Exception exception = assertThrows(IllegalStateException.class, () -> {
-            calculator.removeFirstResult();
-        });
+        Exception exception = assertThrows(IllegalStateException.class, calculator::removeFirstResult);
         assertEquals("삭제할 결과가 없습니다.", exception.getMessage());
     }
 
@@ -94,6 +97,4 @@ public class Lv2ArithmeticCalculatorTest {
                 .map(Integer::parseInt)
                 .toList();
     }
-
-
 }
