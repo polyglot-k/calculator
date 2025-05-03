@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17c0c11b-f00f-4c7c-b132-8f39f3a91ee5" name="Changes" comment="feat : static final 형식의 상수 메시지, 키워드 별도로 분리">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="17c0c11b-f00f-4c7c-b132-8f39f3a91ee5" name="Changes" comment="feat : static final 형식의 상수 메시지, 키워드 별도로 분리" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,13 +89,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lv2App">
-    <configuration name="Lv2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lv2.Lv2App" />
+  <component name="RunManager" selected="Gradle.Tests in 'org.example'">
+    <configuration name="AppLv3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Lv3.AppLv3" />
       <module name="CalculatorProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Lv2.*" />
+          <option name="PATTERN" value="org.example.Lv3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lv3App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lv3.Lv3App" />
+    <configuration name="Lv2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Lv2.Lv2App" />
       <module name="CalculatorProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Lv3.*" />
+          <option name="PATTERN" value="org.example.Lv2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,30 +130,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;org.example.Lv1.Lv1AppTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="Lv2ArithmeticCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.Lv2.Lv2ArithmeticCalculatorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,13 +164,37 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'org.example'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'org.example'" />
         <item itemvalue="Application.Lv2App" />
-        <item itemvalue="Application.Lv3App" />
+        <item itemvalue="Application.AppLv3" />
         <item itemvalue="Gradle.Lv3ArithmeticCalculatorTest" />
         <item itemvalue="Gradle.Lv1AppTest" />
-        <item itemvalue="Gradle.Lv2ArithmeticCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +209,7 @@
       <workItem from="1745914886495" duration="8675000" />
       <workItem from="1746123882386" duration="4038000" />
       <workItem from="1746260178815" duration="2483000" />
-      <workItem from="1746262685881" duration="16262000" />
+      <workItem from="1746262685881" duration="16559000" />
     </task>
     <task id="LOCAL-00001" summary="fix : workspace.xml 변경">
       <created>1745922447780</created>

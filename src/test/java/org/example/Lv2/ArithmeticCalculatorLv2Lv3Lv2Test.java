@@ -1,6 +1,6 @@
 package org.example.Lv2;
 
-import org.example.Lv2.calculator.ArithmeticCalculator;
+import org.example.Lv2.calculator.ArithmeticCalculatorLv2;
 import org.example.Lv2.calculator.Calculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -15,11 +15,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @DisplayName("Lv2 ArithmeticCalculator 테스트")
-public class Lv2ArithmeticCalculatorTest {
+public class ArithmeticCalculatorLv2Lv3Lv2Test {
     private Calculator calculator;
     @BeforeEach
     void setUp(){
-        calculator = new ArithmeticCalculator();
+        calculator = new ArithmeticCalculatorLv2();
     }
     @DisplayName("정수 덧셈, 뺄셈, 곱셈, 나눗셈 계산 테스트")
     @ParameterizedTest(name = "{0} {2} {1} = {3}")

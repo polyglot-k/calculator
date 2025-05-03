@@ -1,6 +1,6 @@
 package org.example.Lv2;
 
-import org.example.Lv2.calculator.ArithmeticCalculator;
+import org.example.Lv2.calculator.ArithmeticCalculatorLv2;
 import org.example.Lv2.calculator.Calculator;
 
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class Lv2App {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             InputHandler inputHandler = new InputHandler(scanner);
-            Calculator calculator = new ArithmeticCalculator();
+            Calculator calculator = new ArithmeticCalculatorLv2();
             do {
                 int operand1 = inputHandler.readOperand();
                 int operand2 = inputHandler.readOperand();

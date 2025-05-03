@@ -1,16 +1,16 @@
 package org.example.Lv3;
 
-import org.example.Lv3.calculator.ArithmeticCalculator;
+import org.example.Lv3.calculator.ArithmeticCalculatorLv3;
 import org.example.Lv3.calculator.OperatorType;
 
 import java.util.List;
 import java.util.Scanner;
 
-public class Lv3App {
+public class AppLv3 {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             InputHandler inputHandler = new InputHandler(scanner);
-            ArithmeticCalculator calculator = new ArithmeticCalculator();
+            ArithmeticCalculatorLv3 calculator = new ArithmeticCalculatorLv3();
 
             do {
                 Number operand1 = inputHandler.readOperand();

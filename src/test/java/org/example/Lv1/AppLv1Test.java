@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @DisplayName("Lv1App 테스트")
-public class Lv1AppTest {
+public class AppLv1Test {
     @DisplayName("정수 덧셈, 뺄셈, 곱셈, 나눗셈 계산 테스트")
     @ParameterizedTest(name = "{0} {2} {1} = {3}")
     @CsvSource({

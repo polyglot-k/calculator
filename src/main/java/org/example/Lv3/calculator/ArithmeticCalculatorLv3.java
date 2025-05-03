@@ -7,7 +7,7 @@ import org.example.Lv3.calculator.exception.NoResultToRemoveException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArithmeticCalculator {
+public class ArithmeticCalculatorLv3 {
     private final List<Double> resultHistories = new ArrayList<>();
 
     public <T extends Number> double calculate(T operand1, T operand2, OperatorType operator) {

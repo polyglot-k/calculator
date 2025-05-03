@@ -1,6 +1,6 @@
 package org.example.Lv3;
 
-import org.example.Lv3.calculator.ArithmeticCalculator;
+import org.example.Lv3.calculator.ArithmeticCalculatorLv3;
 import org.example.Lv3.calculator.OperatorType;
 import org.example.Lv3.calculator.exception.DividedByZeroException;
 import org.example.Lv3.calculator.exception.InvalidOperandException;
@@ -16,8 +16,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @DisplayName("Lv3 ArithmeticCalculator 테스트")
-public class Lv3ArithmeticCalculatorTest {
-    private final ArithmeticCalculator calculator = new ArithmeticCalculator();
+public class ArithmeticCalculatorLv2Lv3Lv3Test {
+    private final ArithmeticCalculatorLv3 calculator = new ArithmeticCalculatorLv3();
 
     @DisplayName("Double 타입 덧셈, 뺄셈, 곱셈, 나눗셈 계산 테스트")
     @ParameterizedTest(name = "{0} {2} {1} = {3}")

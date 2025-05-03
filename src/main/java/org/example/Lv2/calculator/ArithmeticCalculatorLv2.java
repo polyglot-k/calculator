@@ -7,13 +7,13 @@ import org.example.Lv2.calculator.operation.Subtractor;
 
 import java.util.Map;
 
-public class ArithmeticCalculator extends Calculator {
+public class ArithmeticCalculatorLv2 extends Calculator {
     private static final char ADD_OPERATOR = '+';
     private static final char SUBTRACT_OPERATOR = '-';
     private static final char MULTIPLY_OPERATOR = '*';
     private static final char DIVIDE_OPERATOR = '/';
 
-    public ArithmeticCalculator() {
+    public ArithmeticCalculatorLv2() {
         super(
                 Map.of(
                         ADD_OPERATOR, new Adder(),
