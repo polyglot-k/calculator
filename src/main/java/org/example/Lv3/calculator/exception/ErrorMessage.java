@@ -1,4 +1,4 @@
-package org.example.Lv3.exception;
+package org.example.Lv3.calculator.exception;
 
 public enum ErrorMessage {
     NEGATIVE_OPERAND("0 이상의 정수만 허용됩니다."),

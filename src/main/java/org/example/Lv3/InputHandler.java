@@ -1,8 +1,8 @@
 package org.example.Lv3;
 
 import org.example.Lv3.calculator.OperatorType;
-import org.example.Lv3.exception.ErrorMessage;
-import org.example.Lv3.exception.InvalidOperandException;
+import org.example.Lv3.calculator.exception.ErrorMessage;
+import org.example.Lv3.calculator.exception.InvalidOperandException;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -13,6 +13,7 @@ public class InputHandler {
     private static final String PROMPT_THRESHOLD = "threshold를 입력해주세요 :";
     private static final String ERROR_INVALID_INPUT = "유효한 정수를 입력하세요. 다시 시도해주세요.";
     private static final String ERROR_INVALID_OPERATOR = "유효한 연산자를 입력하세요 (+ - * /).";
+
     private static final String RETRY_PROMPT = "더 계산하시겠습니까? (exit 입력 시 종료)";
     private static final String EXIT_COMMAND = "exit";
     private static final String PROMPT_DELETE_FIRST_RESULT = "첫 번째 결과를 삭제하시겠습니까? (yes/no): ";
@@ -38,7 +39,7 @@ public class InputHandler {
                     return scanner.nextDouble();
                 } else {
                     scanner.next();
-                    throw new InvalidOperandException(ErrorMessage.INVALID_OPERATOR);
+                    throw new InputMismatchException(ERROR_INVALID_OPERATOR);
                 }
             } catch (InputMismatchException e) {
                 scanner.nextLine();

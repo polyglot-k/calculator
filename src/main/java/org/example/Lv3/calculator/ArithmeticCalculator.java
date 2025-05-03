@@ -1,8 +1,8 @@
 package org.example.Lv3.calculator;
 
-import org.example.Lv3.exception.ErrorMessage;
-import org.example.Lv3.exception.InvalidOperandException;
-import org.example.Lv3.exception.NoResultToRemoveException;
+import org.example.Lv3.calculator.exception.ErrorMessage;
+import org.example.Lv3.calculator.exception.InvalidOperandException;
+import org.example.Lv3.calculator.exception.NoResultToRemoveException;
 
 import java.util.ArrayList;
 import java.util.List;

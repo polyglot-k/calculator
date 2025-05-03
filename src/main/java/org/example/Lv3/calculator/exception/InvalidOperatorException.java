@@ -1,4 +1,4 @@
-package org.example.Lv3.exception;
+package org.example.Lv3.calculator.exception;
 
 public class InvalidOperatorException extends IllegalArgumentException{
     public InvalidOperatorException(ErrorMessage errorMessage) {

@@ -2,8 +2,8 @@ package org.example.Lv3;
 
 import org.example.Lv3.calculator.ArithmeticCalculator;
 import org.example.Lv3.calculator.OperatorType;
-import org.example.Lv3.exception.DividedByZeroException;
-import org.example.Lv3.exception.InvalidOperandException;
+import org.example.Lv3.calculator.exception.DividedByZeroException;
+import org.example.Lv3.calculator.exception.InvalidOperandException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
