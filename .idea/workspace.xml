@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17c0c11b-f00f-4c7c-b132-8f39f3a91ee5" name="Changes" comment="feat : Calculator 를 절차지향으로 구성">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="17c0c11b-f00f-4c7c-b132-8f39f3a91ee5" name="Changes" comment="feat : static final 형식의 상수 메시지, 키워드 별도로 분리">
+      <change afterPath="$PROJECT_DIR$/docs/img/design-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/step-3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv3/exception/NoResultToRemoveException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/docs-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/docs-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/step-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/step-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/step-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/step-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv2/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv2/InputHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv2/Lv2App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv2/Lv2App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lv2/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lv2/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +98,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lv3App">
+  <component name="RunManager" selected="Application.Lv2App">
     <configuration name="Lv2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Lv2.Lv2App" />
       <module name="CalculatorProject.main" />
@@ -122,6 +125,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lv1AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.Lv1.Lv1AppTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="Lv2ArithmeticCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -146,7 +173,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Lv2ArithmeticCalculatorTest.testFirstResultRemoval" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Lv3ArithmeticCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,31 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.Lv2.Lv2ArithmeticCalculatorTest.testFirstResultRemoval&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'org.example.Lv3'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.Lv3.*&quot;" />
+            <option value="&quot;org.example.Lv3.Lv3ArithmeticCalculatorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lv3App" />
-        <item itemvalue="Gradle.Lv2ArithmeticCalculatorTest.testFirstResultRemoval" />
-        <item itemvalue="Gradle.Lv2ArithmeticCalculatorTest" />
         <item itemvalue="Application.Lv2App" />
-        <item itemvalue="Gradle.Tests in 'org.example.Lv3'" />
+        <item itemvalue="Application.Lv3App" />
+        <item itemvalue="Gradle.Lv3ArithmeticCalculatorTest" />
+        <item itemvalue="Gradle.Lv1AppTest" />
+        <item itemvalue="Gradle.Lv2ArithmeticCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +218,7 @@
       <workItem from="1745914886495" duration="8675000" />
       <workItem from="1746123882386" duration="4038000" />
       <workItem from="1746260178815" duration="2483000" />
-      <workItem from="1746262685881" duration="6029000" />
+      <workItem from="1746262685881" duration="15748000" />
     </task>
     <task id="LOCAL-00001" summary="fix : workspace.xml 변경">
       <created>1745922447780</created>
@@ -245,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1745923403973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat : static final 형식의 상수 메시지, 키워드 별도로 분리">
+      <created>1746271427144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746271427144</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +266,7 @@
     <MESSAGE value="test : Calculator 테스트 진행(절차지향-step1)&#10;- 기본 사칙 연산 작업&#10;- 0으로 나눴을 때 에러&#10;- 지원되지 않는 Operator 일 떄&#10;- 지원되지않는 Operand 일 떄" />
     <MESSAGE value="docs : step1 구현 시 고려한 사항 문서화" />
     <MESSAGE value="feat : Calculator 를 절차지향으로 구성" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : Calculator 를 절차지향으로 구성" />
+    <MESSAGE value="feat : static final 형식의 상수 메시지, 키워드 별도로 분리" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : static final 형식의 상수 메시지, 키워드 별도로 분리" />
   </component>
 </project>
