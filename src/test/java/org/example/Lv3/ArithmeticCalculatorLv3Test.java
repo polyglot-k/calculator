@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @DisplayName("Lv3 ArithmeticCalculator 테스트")
-public class ArithmeticCalculatorLv2Lv3Lv3Test {
+public class ArithmeticCalculatorLv3Test {
     private final ArithmeticCalculatorLv3 calculator = new ArithmeticCalculatorLv3();
 
     @DisplayName("Double 타입 덧셈, 뺄셈, 곱셈, 나눗셈 계산 테스트")
