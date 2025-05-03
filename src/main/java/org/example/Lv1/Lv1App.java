@@ -1,9 +1,9 @@
-package org.example;
+package org.example.Lv1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Calculator {
+public class Lv1App {
 
     private static final String PROMPT_OPERAND = "operand를 입력해주세요 : ";
     private static final String PROMPT_OPERATOR = "operator를 입력해주세요 (+ - * /) :";
