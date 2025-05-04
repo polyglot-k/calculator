@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17c0c11b-f00f-4c7c-b132-8f39f3a91ee5" name="Changes" comment="feat : static final 형식의 상수 메시지, 키워드 별도로 분리" />
+    <list default="true" id="17c0c11b-f00f-4c7c-b132-8f39f3a91ee5" name="Changes" comment="feat : static final 형식의 상수 메시지, 키워드 별도로 분리">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Lv2/ArithmeticCalculatorLv2Lv3Lv2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Lv2/ArithmeticCalculatorLv2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Lv3/ArithmeticCalculatorLv2Lv3Lv3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Lv3/ArithmeticCalculatorLv3Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +212,7 @@
       <workItem from="1745914886495" duration="8675000" />
       <workItem from="1746123882386" duration="4038000" />
       <workItem from="1746260178815" duration="2483000" />
-      <workItem from="1746262685881" duration="16559000" />
+      <workItem from="1746262685881" duration="17322000" />
     </task>
     <task id="LOCAL-00001" summary="fix : workspace.xml 변경">
       <created>1745922447780</created>
